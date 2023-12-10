@@ -1,0 +1,58 @@
+Collecting tensorflow_datasets
+  Downloading tensorflow_datasets-4.9.3-py3-none-any.whl (5.0 MB)
+     ---------------------------------------- 5.0/5.0 MB 11.1 MB/s eta 0:00:00
+Requirement already satisfied: absl-py in c:\python311\lib\site-packages (from tensorflow_datasets) (2.0.0)
+Collecting array-record
+  Downloading array_record-0.4.1-py310-none-any.whl (3.0 MB)
+     ---------------------------------------- 3.0/3.0 MB 17.5 MB/s eta 0:00:00
+Requirement already satisfied: click in c:\python311\lib\site-packages (from tensorflow_datasets) (8.1.7)
+Requirement already satisfied: dm-tree in c:\python311\lib\site-packages (from tensorflow_datasets) (0.1.8)
+Collecting etils[enp,epath,etree]>=0.9.0
+  Downloading etils-1.5.2-py3-none-any.whl (140 kB)
+     -------------------------------------- 140.6/140.6 kB 8.7 MB/s eta 0:00:00
+Requirement already satisfied: numpy in c:\python311\lib\site-packages (from tensorflow_datasets) (1.26.2)
+Collecting promise
+  Downloading promise-2.3.tar.gz (19 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: protobuf>=3.20 in c:\python311\lib\site-packages (from tensorflow_datasets) (4.23.4)
+Requirement already satisfied: psutil in c:\python311\lib\site-packages (from tensorflow_datasets) (5.9.6)
+Requirement already satisfied: requests>=2.19.0 in c:\python311\lib\site-packages (from tensorflow_datasets) (2.31.0)
+Collecting tensorflow-metadata
+  Downloading tensorflow_metadata-1.14.0-py3-none-any.whl (28 kB)
+Collecting termcolor
+  Using cached termcolor-2.4.0-py3-none-any.whl (7.7 kB)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting tqdm
+  Downloading tqdm-4.66.1-py3-none-any.whl (78 kB)
+     ---------------------------------------- 78.3/78.3 kB 4.3 MB/s eta 0:00:00
+Requirement already satisfied: wrapt in c:\python311\lib\site-packages (from tensorflow_datasets) (1.14.1)
+Requirement already satisfied: fsspec in c:\python311\lib\site-packages (from etils[enp,epath,etree]>=0.9.0->tensorflow_datasets) (2023.12.0)
+Collecting importlib_resources
+  Downloading importlib_resources-6.1.1-py3-none-any.whl (33 kB)
+Requirement already satisfied: typing_extensions in c:\python311\lib\site-packages (from etils[enp,epath,etree]>=0.9.0->tensorflow_datasets) (4.8.0)
+Collecting zipp
+  Downloading zipp-3.17.0-py3-none-any.whl (7.4 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\python311\lib\site-packages (from requests>=2.19.0->tensorflow_datasets) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\python311\lib\site-packages (from requests>=2.19.0->tensorflow_datasets) (3.6)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\python311\lib\site-packages (from requests>=2.19.0->tensorflow_datasets) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python311\lib\site-packages (from requests>=2.19.0->tensorflow_datasets) (2023.11.17)
+Requirement already satisfied: colorama in c:\python311\lib\site-packages (from click->tensorflow_datasets) (0.4.6)
+Requirement already satisfied: six in c:\python311\lib\site-packages (from promise->tensorflow_datasets) (1.16.0)
+Collecting absl-py
+  Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
+     ---------------------------------------- 126.5/126.5 kB ? eta 0:00:00
+Collecting googleapis-common-protos<2,>=1.52.0
+  Downloading googleapis_common_protos-1.61.0-py2.py3-none-any.whl (230 kB)
+     ---------------------------------------- 230.9/230.9 kB ? eta 0:00:00
+Collecting protobuf>=3.20
+  Downloading protobuf-3.20.3-py2.py3-none-any.whl (162 kB)
+     ------------------------------------- 162.1/162.1 kB 10.1 MB/s eta 0:00:00
+Building wheels for collected packages: promise
+  Building wheel for promise (setup.py): started
+  Building wheel for promise (setup.py): finished with status 'done'
+  Created wheel for promise: filename=promise-2.3-py3-none-any.whl size=21545 sha256=dfcb91dc504c8200ad8f3005896172bc55d8e36bebd0ea568050058967f11e60
+  Stored in directory: c:\users\lukes\appdata\local\pip\cache\wheels\74\05\89\d0909dd6ebad0a26f2b4dcb2499b1d65999c5b6ed416be7f85
+Successfully built promise
+Installing collected packages: zipp, tqdm, toml, termcolor, protobuf, promise, importlib_resources, etils, absl-py, googleapis-common-protos, tensorflow-metadata, array-record, tensorflow_datasets
